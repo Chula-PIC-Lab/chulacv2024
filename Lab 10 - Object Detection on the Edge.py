@@ -2,10 +2,11 @@
 ## bash Miniforge3-Linux-aarch64.sh
 ## mamba create -n cv2024 python=3.9
 ## mamba activate cv2024
-## mamba install onnx protobuf numpy pip six fastapi uvicorn python-multipart
+## mamba install onnx protobuf pip six fastapi uvicorn python-multipart
+## pip install numpy==1.26.4
 ## pip install opencv-python # need to install from pip due to QT dependencies on arm64
 
-## ONNXRuntime https://elinux.org/Jetson_Zoo#ONNX_Runtime
+## ONNXRuntime
 ## wget https://nvidia.box.com/shared/static/jmomlpcctmjojz14zbwa12lxmeh2h6o5.whl -O onnxruntime_gpu-1.11.0-cp39-cp39-linux_aarch64.whl
 ## pip install onnxruntime_gpu-1.11.0-cp39-cp39-linux_aarch64.whl
 
